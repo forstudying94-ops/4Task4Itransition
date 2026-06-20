@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-4 py-4">
+        <h3 class="mb-4">Login</h3>
+
+        <form method="post" asp-action="Login">
+            <div class="mb-4">
+                <label class="form-label" for="email">E-mail</label>
+                <input class="form-control" type="email" id="email" name="email" required />
+            </div>
+            <div class="mb-4">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control" type="password" id="password" name="password" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <a class="btn btn-link" asp-action="Register">Register</a>
+        </form>
+    </div>
+</div>

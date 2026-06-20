@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+[Dd]ebug/
+[Rr]elease/
+.DS_Store
